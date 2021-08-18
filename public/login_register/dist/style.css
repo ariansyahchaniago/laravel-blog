@@ -1,0 +1,120 @@
+body {
+  background: #f0f0f0;
+  color: #666666;
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* box-shadow: 20px 20px #000000; */
+}
+
+/* Form Module */
+.form-module {
+  position: relative;
+  background: #f8f9fc;
+  max-width: 350px;
+  width: 100%;
+  border-top: 5px solid #0c34ad;
+  margin: 0 auto;
+  margin-top: 8rem;
+  box-shadow: 0 16px 20px rgba(0,0,0,0.12), 0 15px 17px rgba(0,0,0,0.24);
+}
+.form-module:hover{
+  box-shadow: 0 28px 48px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
+}
+
+.form-module .toggle {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0c34ad;
+  width: 30px;
+  height: 30px;
+  margin: -5px 0 0;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+.form-module .toggle .tooltip {
+  position: absolute;
+  top: 5px;
+  right: -100px;
+  display: block;
+  background: rgba(0, 0, 0, 0.006);
+  width: auto;
+  padding: 5px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.form-module .toggle .tooltip:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  display: block;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-right: 7px solid rgba(0, 0, 0, 0.6);
+}
+.form-module .form {
+  display: none;
+  padding: 50px;
+}
+.form-module .form:nth-child(2) {
+  display: block;
+}
+.form-module h2 {
+  margin: 0 0 20px;
+  color: #0c34ad;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+}
+.form-module input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 2px solid #727af3;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+.form-module input:focus {
+  border: 2px solid #0c34ad;
+  color: #18006e;
+}
+.form-module button {
+  cursor: pointer;
+  background: #0c34ad;
+  width: 100%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.form-module button:hover {
+  background: #100068;
+}
+.form-module .cta {
+  background: #d8d8d8;
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
+.form-module .cta a {
+  color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}

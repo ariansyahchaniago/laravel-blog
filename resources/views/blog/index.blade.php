@@ -1,7 +1,7 @@
 @extends('partial.template')
 
 @section('title_web')
-    Tugas Blog
+     Blog
 @endsection
 
 @section('content')
